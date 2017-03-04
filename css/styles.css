@@ -1,0 +1,160 @@
+body {
+  font-size: 1em;
+  color: #fff;
+  /*background-color: #77e193;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+  /*background-color: #a9dbeb;*/
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    /* margin-bottom: 20px; */
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-header {
+
+	width: 100%;	
+}
+
+.navbar-brand {
+  padding-top: 3px;
+  margin-left:25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', serif;
+  color: #117596;
+  font-size: 1.75em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  /*margin-bottom: 0;*/
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+  text-decoration: none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 14px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+li{
+	display: inline-block;
+ 	height: 50px;
+ 	border-bottom: 1px solid #fff;
+}
+
+#nav-list li:nth-child(1) {
+	color: #000;
+	border-top: 1px solid #f18513;
+}
+
+#nav-list li:nth-child(2) {
+	border-top: 1px solid #f13513;
+}
+
+#nav-list li:nth-child(3) {
+	border-top: 1px solid #117596;
+}
+
+.menue-punkt {
+	font-family: 'Oxygen', serif;
+	font-size: 2.5em;
+	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+}
+
+ /* Main Content  */
+p
+{
+  	font-size: 1.6em;
+}
+
+ h2
+{
+	font-family: 'Oxygen', serif;
+   color: #117596;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  	font-weight: bold;
+}
+
+ h3
+{
+  	font-weight: bold;
+}
+
+section > div > div > div > div {
+	margin: 10px 5px 10px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*	height: 650px;*/
+	padding: 10px 8px;
+	overflow: auto;
+}
+
+/*#chiken, #beef, #sushi {
+	height: 700px;
+}*/
+
+.chiken-color {
+	color: #f18513;
+  	background-color: #ffc587;
+
+}
+
+.beef-color {
+	color: #f13513;
+	background-color: #ff9a87;
+}
+
+.sushi-color {
+	color: #4da1bd;
+	background-color: #b2cecf;
+
+}
+
+/*  http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-grid-system.php  */
+
+/********** Large devices only **********/
+@media (min-width: 970px) {
+#chiken, #beef, #sushi {
+	height: 600px;
+}
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 767px) and (max-width: 969px) {
+
+#chiken, #beef {
+	height: 600px;
+}
+
+#sushi {
+	height: 300px;
+}	
+
+}
+
+
+
+
+
+
